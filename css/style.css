@@ -1,0 +1,29 @@
+:root{
+    --black:#000;
+    --white:#fff;
+    --prin-color: #6dabf0 ;
+    --second-color: #569ceb ;
+}
+header  {
+    text-align: center;
+}
+span{
+    font-size: 1.20rem;
+}
+
+.bg-color{
+    background-color: var(--black);
+}
+.contenedor{
+    width: 700px;
+    margin: 0 auto;
+}
+.prin-nav{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.prin-nav a{
+    color: var(--white);
+    padding: 6px;
+}
