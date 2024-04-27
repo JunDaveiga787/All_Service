@@ -78,7 +78,7 @@ position: relative;
     display: grid;
     grid-template-columns: 33.3% 33.3% 33.3%;
     text-align: center;
-    
+    line-height: 25px;
     
 }
 .que-hacemos svg{
