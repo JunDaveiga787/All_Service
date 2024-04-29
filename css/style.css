@@ -79,11 +79,13 @@ position: relative;
     color: var(--black);
 }
 /* scroll snap */
-.que-hacemos,
 .prin-nav,
+.scroll-stop1,
+.scroll-stop2,
+.scroll-stop3,
 .formulario{
-    scroll-snap-align: center;
     scroll-snap-stop: always;
+    scroll-snap-align:center;
 }
 .que-hacemos{
     display: grid;
@@ -117,6 +119,7 @@ form{
     background-color: var(--prin-hover);
     padding-left: 10px;
     padding-bottom: 25px;
+    color: black;
 }
 
 .formulario fieldset{
@@ -128,6 +131,7 @@ form{
     border: 1px solid var(--black);
     background-color: white;
 }
+
 
 /* media query */
 @media (max-width :480px ) {
