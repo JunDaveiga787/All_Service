@@ -8,6 +8,9 @@
     --second-hover:#b79fe7;
     --quehacemos-hover: #9168e2;
 }
+html{
+    scroll-snap-type: y mandatory;
+}
 body{
     font-family: "Montserrat", sans-serif;
 
@@ -75,6 +78,13 @@ position: relative;
     text-decoration-line: none;
     color: var(--black);
 }
+/* scroll snap */
+.que-hacemos,
+.prin-nav,
+.formulario{
+    scroll-snap-align: center;
+    scroll-snap-stop: always;
+}
 .que-hacemos{
     display: grid;
     grid-template-columns: 33.3% 33.3% 33.3%;
@@ -84,6 +94,7 @@ position: relative;
 }
 .que-hacemos svg{
     background-color: var(--second-hover);
+    padding: 10px;
     border-radius: 40px;
     border: 1px solid var(--white);
 }
@@ -100,6 +111,24 @@ footer{
 .bg-foot{
     background-color: var(--prin-hover);
 }
+form{
+    border-radius: 7px;
+    margin: 0 auto;
+    background-color: var(--prin-hover);
+    padding-left: 10px;
+    padding-bottom: 25px;
+}
+
+.formulario fieldset{
+    border: none;
+    
+}
+.formulario input{
+    padding: 7px;
+    border: 1px solid var(--black);
+    background-color: white;
+}
+
 /* media query */
 @media (max-width :480px ) {
     .prin-nav{
