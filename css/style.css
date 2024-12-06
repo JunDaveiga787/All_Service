@@ -29,30 +29,19 @@ header {
     text-align: center;
 }
 span{
-    font-size: 1rem;
+    font-size: 1.2rem;
+}
+.title h2{
+    font-size: 1.1rem;
+    font-family: "Montserrat", sans-serif;
+    
 }
 
 .bg-color{
     background: rgb(183,153,241);
     background: linear-gradient(77deg, rgba(183,153,241,1) 38%, rgba(74,142,224,1) 100%); 
 }
-.contenedor{
-    width: 500px;
-    margin: 0 auto;
-}
-.prin-nav{
-    display: flex;
-    justify-content: space-around;
-    
-}
-.prin-nav a{
-    color: var(--black);
-    padding: 6px;
-    text-decoration-line: none;
-}
-.prin-nav a:hover{
-    background-color: var(--prin-hover);
-}
+
 .hero{
     background-image: url(../img/all-service-img1.jpg);
     background-repeat: no-repeat;
@@ -73,13 +62,21 @@ position: relative;
     padding: 7px;
     background-color: var(--white);
     border: 1px solid var(--black);
+    border-radius: 3px;
+    cursor: pointer;
 }
+
+
+.hero2 button:hover{
+    background-color: var(--second-hover);
+}
+
 .hero2 button a{
     text-decoration-line: none;
     color: var(--black);
 }
 /* scroll snap */
-.prin-nav,
+.title,
 .scroll-stop1,
 .scroll-stop2,
 .scroll-stop3,
